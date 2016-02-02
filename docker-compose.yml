@@ -12,7 +12,7 @@ mysql:
     - mysqldata
 
 phpnginx:
-  image: harshjv/php-nginx:0.9.16-1.0
+  image: bunnyfu/docker-php-nginx
   volumes_from:
     - composerdata
   links:
